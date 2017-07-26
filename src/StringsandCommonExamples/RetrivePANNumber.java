@@ -10,12 +10,13 @@ public class RetrivePANNumber {
 		
 		
 		
-		String str="My Pan Number is HJIPM3600D";
+		//String str="My Pan Number is HJIPM3600D";
 		
-		//String str="my email id is abc.xyz@dfg.com";
+		String str="my email id is abc.xyz@dfg.com";
 		
 	
-		String pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}";
+		//String pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}";
+		String pattern="[a-z]{3}\\.[a-z]{3}\\@[a-z]{3}\\.[a-z]{3}";
 		
 		//Regular Expression code
 		Pattern ptrn=Pattern.compile(pattern);
