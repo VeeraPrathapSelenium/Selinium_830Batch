@@ -1,7 +1,5 @@
 package Debugging;
 
-import ClassAndObject.ClassA;
-
 public class Debugging {
 
     public static String Name="Testing Masters";

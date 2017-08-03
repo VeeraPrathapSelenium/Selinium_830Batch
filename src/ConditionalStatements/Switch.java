@@ -8,6 +8,7 @@ public class Switch {
 		// TODO Auto-generated method stub
 
 		
+		@SuppressWarnings("resource")
 		Scanner sc=new Scanner(System.in);
 		
 		int day=sc.nextInt();
