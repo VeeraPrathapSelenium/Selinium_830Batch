@@ -9,46 +9,37 @@ import org.openqa.selenium.support.ui.Select;
 public class HandlingDropDownUsingSelectClass {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		
-		
-		
-WebDriver driver =new FirefoxDriver();
-		
-		driver.get("https://www.facebook.com/");
-			
-			
-			//driver.navigate().to("https://www.facebook.com/");
-			
-			driver.manage().window().maximize();
-			
-		Thread.sleep(3000);
-			
-			WebElement ele=driver.findElement(By.id("day"));
-			
-			
-//			//Using select CLass with selectByIndex
-//			
-//			Select slct=new Select(ele);
-//			
-//			slct.selectByIndex(3);
-//			
-		
-//Using select CLass with selectByValue
-//			
-//			Select slct=new Select(ele);
-//			
-//			slct.selectByValue("5");
+		WebDriver driver = new FirefoxDriver();
 
-			
-			//Using select CLass with visibleText
-//			
-			Select slct=new Select(ele);
-			
-			slct.selectByVisibleText("15");
-		
-		
-		
+		driver.get("https://www.facebook.com/");
+
+		// driver.navigate().to("https://www.facebook.com/");
+
+		driver.manage().window().maximize();
+
+		Thread.sleep(3000);
+
+		WebElement ele = driver.findElement(By.id("day"));
+
+		// //Using select CLass with selectByIndex
+		//
+		// Select slct=new Select(ele);
+		//
+		// slct.selectByIndex(3);
+		//
+
+		// Using select CLass with selectByValue
+		//
+		// Select slct=new Select(ele);
+		//
+		// slct.selectByValue("5");
+
+		// Using select CLass with visibleText
+		//
+		Select slct = new Select(ele);
+
+		slct.selectByVisibleText("15");
 
 	}
 
