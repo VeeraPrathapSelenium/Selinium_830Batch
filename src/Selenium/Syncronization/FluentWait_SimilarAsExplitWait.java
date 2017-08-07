@@ -31,6 +31,7 @@ public class FluentWait_SimilarAsExplitWait {
 					
 					
 					FluentWait wait=new FluentWait(driver);
+					wait.withTimeout(35000, TimeUnit.MILLISECONDS);
 					wait.pollingEvery(2, TimeUnit.SECONDS);
 					wait.until(ExpectedConditions.alertIsPresent());
 					
