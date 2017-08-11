@@ -40,6 +40,7 @@ public class HandlingDropDownUsingSelectClass {
 		Select slct = new Select(ele);
 
 		slct.selectByVisibleText("15");
+	
 
 	}
 

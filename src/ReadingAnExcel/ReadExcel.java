@@ -47,7 +47,7 @@ public class ReadExcel {
 			int ccnt=sheet.getRow(r).getLastCellNum();
 			
 			
-			for(int c=0;c<=ccnt-1;c++)
+			for(int c=1;c<=ccnt-1;c++)
 			{
 				String val=sheet.getRow(r).getCell(c).getStringCellValue();
 				System.out.println(val);

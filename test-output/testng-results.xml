@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="258532" started-at="2017-08-11T04:41:27Z" finished-at="2017-08-11T04:45:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="258532" started-at="2017-08-11T04:41:27Z" finished-at="2017-08-11T04:45:46Z">
+      <class name="Selenium.ExtentReports.WritingExtentReports">
+        <test-method status="PASS" signature="intializeExtentReport()[pri:0, instance:Selenium.ExtentReports.WritingExtentReports@5622fdf]" name="intializeExtentReport" is-config="true" duration-ms="296" started-at="2017-08-11T10:11:27Z" finished-at="2017-08-11T10:11:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeExtentReport -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:Selenium.ExtentReports.WritingExtentReports@5622fdf]" name="startReport" is-config="true" duration-ms="5" started-at="2017-08-11T10:11:27Z" finished-at="2017-08-11T10:11:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:1, instance:Selenium.ExtentReports.WritingExtentReports@5622fdf]" name="invokeBrowser" duration-ms="257517" started-at="2017-08-11T10:11:27Z" finished-at="2017-08-11T10:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Selenium.ExtentReports.WritingExtentReports@5622fdf]" name="endTest" is-config="true" duration-ms="68" started-at="2017-08-11T10:15:45Z" finished-at="2017-08-11T10:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="publishResult()[pri:0, instance:Selenium.ExtentReports.WritingExtentReports@5622fdf]" name="publishResult" is-config="true" duration-ms="598" started-at="2017-08-11T10:15:45Z" finished-at="2017-08-11T10:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishResult -->
+      </class> <!-- Selenium.ExtentReports.WritingExtentReports -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
